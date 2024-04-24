@@ -34,7 +34,7 @@ class Administrator(Person):
         super().display_attributes()
         print("Department:",self.department)
         print("List of employees",self.employees)
-
+"""
 student1=Student(input("enter student name"),input("enter age"),input("enter id"),input("enter grade"),["english","urdu","math","science"])
 student2=Student(input("enter student name"),input("enter age"),input("enter id"),input("enter grade"),["english","urdu","math","science"])
 student3=Student(input("enter student name"),input("enter age"),input("enter id"),input("enter grade"),["english","urdu","math","science"])
@@ -53,3 +53,4 @@ teacher2.display_attributes()
 
 admin1=Administrator(input("enter admin name"),input("enter age"),input("enter id"),input("enter department"),[teacher1,teacher2])
 admin1.display_attributes()
+"""

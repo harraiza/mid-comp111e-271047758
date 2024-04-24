@@ -52,3 +52,9 @@ class Library:
             for song in playlist.list:
                 print(song.get_title(),song.get_album(),song.get_duration(),song.get_artist())
     
+library=Library()
+playlist1=Playlist(input("title:"),input("description:"))
+playlist1.add_song()
+playlist1.display()
+playlist1.remove_song(input("title:"))
+playlist1.display()
